@@ -10,9 +10,13 @@ import org.apache.commons.io.FileUtils;
 
 public class ValueFinder {
 
-	static File theFile = new File("C:\\Users\\Standard\\Desktop\\Steam.txt");
+	static File theFile = new File("Steam.txt");
 
 	public static void main(String[] args) throws IOException {
+//		File f = new File("Steam.txt");
+//		System.out.println(f.getAbsolutePath());
+		
+		
 		lineParserImpl();
 		regexImpl();
 	}
